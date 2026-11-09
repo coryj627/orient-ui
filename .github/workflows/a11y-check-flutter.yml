@@ -1,0 +1,74 @@
+# Dogfood workflow for the userorient/orient-ui fork: scans the widget templates and the
+# example app with a11y-check-flutter on every push and PR. Review-only — the committed
+# .a11y/flutter/baseline.json is the accepted floor, so the job fails only on a NEW
+# finding at or above the config's fail_at.
+#
+# Orient UI ships its widgets as templates copied into an app; the example app carries
+# those copies under example/lib/widgets, so the runtime audit (example/test/a11y) pumps
+# every example page and the scan runs at the repository root (repo-root) over both the
+# templates and the example.
+#
+# One-time setup in the fork:
+#   1. Secret FLUTTER_A11Y_READ_TOKEN: a fine-grained PAT with Contents: Read-only
+#      on coryj627/flutter-a11y (private). It lets `pub get` fetch flutter_a11y_test
+#      and `dart pub global activate` fetch the CLI.
+#   2. Code scanning must be enabled on the fork for the SARIF upload step.
+#
+# This fork is public and coryj627/flutter-a11y is private: a public repository can
+# never `uses:` an action from a private one, so the action is checked out with the
+# read token and run as a local action.
+name: a11y-check-flutter
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write # github/codeql-action/upload-sarif
+
+jobs:
+  a11y:
+    name: a11y-check-flutter
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.47.9
+          cache: true
+
+      - name: Read access to coryj627/flutter-a11y (private)
+        env:
+          TOKEN: ${{ secrets.FLUTTER_A11Y_READ_TOKEN }}
+        run: |
+          git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "https://github.com/"
+
+      - name: Fetch the a11y-check-flutter action
+        uses: actions/checkout@v4
+        with:
+          repository: coryj627/flutter-a11y
+          ref: 0.2.0
+          token: ${{ secrets.FLUTTER_A11Y_READ_TOKEN }}
+          path: .flutter-a11y
+
+      - name: Scan (pub get → flutter test test/a11y → a11y_check_flutter scan)
+        id: a11y
+        uses: ./.flutter-a11y
+        with:
+          ref: 0.2.0
+          working-directory: example
+          repo-root: ..
+          test-args: test/a11y
+
+      - name: Upload SARIF to code scanning
+        if: always() && steps.a11y.outputs.sarif != ''
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: ${{ steps.a11y.outputs.sarif }}
+          category: a11y-check-flutter
