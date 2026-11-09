@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.0",
+  "tool_version": "0.2.1",
   "engines": {
-    "static": "0.2.0",
-    "runtime": "0.2.0"
+    "static": "0.2.1",
+    "runtime": "0.2.1"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T22:16:37.186781Z",
-  "updated_at": "2026-11-09T22:16:37.186781Z",
+  "updated_at": "2026-11-09T22:30:12.672892Z",
   "summary": {
     "finding_count": 221,
     "by_severity": {
@@ -393,7 +393,7 @@
       "screen_id": "multi-choice-tile"
     },
     {
-      "id": "sha256:f63e0d52eef8e07613d9ec16616c87152040278541387ca6fef20aeec38a4478",
+      "id": "sha256:bfd4cac10efabe65a1ff2b91b31b4bb3537422c351ba6f63192a3b2eaf7990f9",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -402,11 +402,11 @@
       "file_path": "example/lib/pages/popover_menu_page.dart",
       "line": 31,
       "column": 20,
-      "message_hash": "sha256:ba99f39d8e24a491",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "popover-menu"
     },
     {
-      "id": "sha256:293e1090bce7d7a15de061be0a9b3f5580a195e8fe8631ef87f7fcf3bf91b956",
+      "id": "sha256:1f7fd76fc44d040c4c7329c455f6e42a9b3620936e7f4b1e9e5470200a0e65e1",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -415,7 +415,7 @@
       "file_path": "example/lib/pages/popover_menu_page.dart",
       "line": 43,
       "column": 27,
-      "message_hash": "sha256:7732812af59bc516",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "popover-menu"
     },
     {
@@ -514,7 +514,7 @@
       "screen_id": "single-choice-tile"
     },
     {
-      "id": "sha256:c32e898e559aa96c3883f57dc802dae03053ca63a1d65f5771f266948f83de9c",
+      "id": "sha256:c769e7068c71f421f2f9bf3845ea7f85bc1758ff8353d0fd509564ffa174c667",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -523,11 +523,11 @@
       "file_path": "example/lib/pages/tappable_icon_page.dart",
       "line": 15,
       "column": 23,
-      "message_hash": "sha256:a9f76f09b9d3902e",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "tappable-icon"
     },
     {
-      "id": "sha256:dd95f9afa6b9eaac12ecea304736271eca9f9d52333e1f21f28d84a63183c04d",
+      "id": "sha256:42fde94b47679e54a948cdee860b521ac900f0509959bfb17699f23aba227833",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -536,11 +536,11 @@
       "file_path": "example/lib/pages/tappable_icon_page.dart",
       "line": 20,
       "column": 23,
-      "message_hash": "sha256:2bee0f1e593f4746",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "tappable-icon"
     },
     {
-      "id": "sha256:dc59d804fd5e0046d189aaa9d15fccb192e6f58a8b61258a7cb756b2ddb71d1b",
+      "id": "sha256:6f37e1a301221e42dbf96dc246c60d4534715fcb3aadb321f37c06d84f3222b8",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -549,11 +549,11 @@
       "file_path": "example/lib/pages/tappable_icon_page.dart",
       "line": 25,
       "column": 23,
-      "message_hash": "sha256:e97747d6cf7fe585",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "tappable-icon"
     },
     {
-      "id": "sha256:fa14d0c178f8eb26d383f70304d07c7c26e2ebbe366c16b3bc1210231510139f",
+      "id": "sha256:9c9790c59d3192d08a9a93d3f7be49441077f490630651dc341e1d7920e45ec6",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -562,11 +562,11 @@
       "file_path": "example/lib/pages/tappable_icon_page.dart",
       "line": 30,
       "column": 23,
-      "message_hash": "sha256:ba99f39d8e24a491",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "tappable-icon"
     },
     {
-      "id": "sha256:00184ca3b239dd46d40d5039c1dbada3a6372aeb23fd202b0cd45f0839b95ed9",
+      "id": "sha256:06c3c29e1002c15eea2acf7585bafbf76e076c72ec4ac0ea0f123def588abed1",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -575,7 +575,7 @@
       "file_path": "example/lib/pages/tappable_icon_page.dart",
       "line": 35,
       "column": 23,
-      "message_hash": "sha256:d06714da96b80660",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "tappable-icon"
     },
     {
@@ -698,7 +698,7 @@
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:a51592c67d78d86d3c6234ba486be89d02ce3534583ad81f0f21bb58b75d6e05",
+      "id": "sha256:fff738c8aa263e5cfcb726fdd344094d4e2e727f802f6a153e7bfa8c3f0f70db",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -707,11 +707,11 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:ec8b01d3c014d063",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:25b679a6990819a547ffd5a42f2e2bc141938302b0b7cc82004cbbc56853b285",
+      "id": "sha256:ea377e9a3b9a85d385c751c9e0cd21e2935de215adf589f1c1c4c9073d56880f",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -720,12 +720,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:d384e02d52fbb842",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "1",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:12bf50aa02bf3937c8ffd29a6b7e0fb66568e9ebb50623b25e59974887b0105e",
+      "id": "sha256:6433000591f4274b8bbea5b31ff3532ae2b0eef274b366d454a2053f02d29bcf",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -734,12 +734,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:fad62535563bc109",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "10",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:10d50083fe1ef38e5c8d445c68f99379965810a09780c2e273b6a83a0d229be7",
+      "id": "sha256:2103846ca629de77c7b412b04aad8299169152e1169cd7f7c6dd638849846459",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -748,12 +748,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:3c4c7a626af522d2",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "11",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:b7f873b72fea4ff358162543c982f442f5454a81470a67c88a0fc9d7b16552e7",
+      "id": "sha256:176711f1f4f4925b86968c9d779442cf112d4113ba7f42aecbbc401580b1e32b",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -762,12 +762,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:0267cdd7ee9de9d4",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "12",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:75dcbe2d45a82c8dc9a3c2d1fc3e577eff1ae692a314113d9172320c905d76ca",
+      "id": "sha256:7af4704b45f88f7c6547c741942aab647731b9a8a1a64cfad89035ca7cbc7730",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -776,12 +776,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:1159a1e4f93835b9",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "2",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:23978271ecee69045a01a2bf33440f015a42a6aea2cdce10d3de8a0bba22e2ac",
+      "id": "sha256:96d266ab54f1674198689d2df86528f1cf51d7cb0b5ba35de502e6024a9ff9d5",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -790,12 +790,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:6c3215f896b33086",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "3",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:f786ea8137fbc7320d59d047fd74c8f1de91e87ff7ec4a2c6f6603822da424db",
+      "id": "sha256:d26be9530a42742ca5def135f6acf55a4e69f1a131b7fe4782ae16058e110a72",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -804,12 +804,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:2670c2560b237952",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "4",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:33852e60c83bb1177ed62c3bf7bc34d304485c0d3c2b2f6605e5b5e21afa7202",
+      "id": "sha256:c3e25f6ebd85615b146a1a1a2835dec2f848060c8cd0e69091efc9a673cf7040",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -818,12 +818,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:ea71d92a1d309651",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "5",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:f93349c9b18362c5d0ce23a977aa39a06ef97ffb72993fd5c109638c4d307551",
+      "id": "sha256:3110bc87cd94ab4dbfb490d27bbe89e39fd8aa1d1d0cdfed790ba170c29678eb",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -832,12 +832,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:724624e28230746d",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "6",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:988efecca98d66884ce79ef5e00de6227ae9e515d8d83b2e4488f3e9fa1ea370",
+      "id": "sha256:553a860799fb5dd24ca15644c61ff520ae80e97f998c1b1df4f1c7bf2aecfbbc",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -846,12 +846,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:d2d9e670d622a8bc",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "7",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:2d3caa8157c659e70f5e134a5b84ab34a56a68e6209a9d19ff35c43b9c3a85ce",
+      "id": "sha256:f20a59a1dea915a8411242bf113af950a56a913022d4469717d4ce7c7e8e9b0d",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -860,12 +860,12 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:818869465e815c7d",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "8",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:62c2aa31ec6c21f6746d14d230c48705b7b5d2123483378524f747423e905bb7",
+      "id": "sha256:2b67de6fe9725d794b5bd00118babaccd6d3609076042bc8ca2acb7c140aa653",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -874,7 +874,7 @@
       "file_path": "example/lib/pages/widgets_page.dart",
       "line": 507,
       "column": 35,
-      "message_hash": "sha256:90c238d668106be5",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "9",
       "screen_id": "widgets"
     },
