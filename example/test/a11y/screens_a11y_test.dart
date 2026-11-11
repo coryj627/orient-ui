@@ -107,8 +107,7 @@ Future<void> _pumpAndAudit(
       ),
     ),
   );
-  await tester.pump(const Duration(milliseconds: 300));
-  await tester.pump(const Duration(milliseconds: 500));
+  // No settle pumps: auditScreen settles whatever the first frame started.
   _dropKnown(tester);
   final result = await auditScreen(tester, screenId: screenId);
   // ignore: avoid_print

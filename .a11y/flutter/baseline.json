@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.5.0",
+  "tool_version": "0.5.1",
   "engines": {
-    "static": "0.5.0",
-    "runtime": "0.5.0"
+    "static": "0.5.1",
+    "runtime": "0.5.1"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T22:16:37.186781Z",
-  "updated_at": "2026-11-11T17:43:17.228667Z",
+  "updated_at": "2026-11-11T22:37:55.910806Z",
   "summary": {
     "finding_count": 132,
     "by_severity": {
@@ -136,7 +136,7 @@
       "screen_id": "multi-choice-tile"
     },
     {
-      "id": "sha256:1905eb62f11f424fb61d357428ed55edabd3c67ca0d0459cf5d863237e35f9dc",
+      "id": "sha256:e03c418aacb78f9b4e4dc4f6eb203b384a949ca1aaabcb3ae94dd8d52e3789c8",
       "rule_id": "flutter/runtime/text-overflow-at-scale",
       "layer": "runtime",
       "wcag_criterion": "1.4.4",
@@ -145,7 +145,7 @@
       "file_path": "example/lib/pages/multi_choice_tile_page.dart",
       "line": 33,
       "column": 12,
-      "message_hash": "sha256:e4b3f3c261adf3f1",
+      "message_hash": "sha256:93663d5b35ff95a8",
       "screen_id": "multi-choice-tile"
     },
     {
@@ -162,7 +162,7 @@
       "screen_id": "single-choice-tile"
     },
     {
-      "id": "sha256:c3f4c43ca6ac1080d6e41c4df47c01f62b57b2c722914a7439cc9e13e06f78b5",
+      "id": "sha256:2aa372cb94ddb9c2b5c5873a5c87d050545cd6f77d5abab6d07d16ab5f109be1",
       "rule_id": "flutter/runtime/text-overflow-at-scale",
       "layer": "runtime",
       "wcag_criterion": "1.4.4",
@@ -171,7 +171,7 @@
       "file_path": "example/lib/pages/single_choice_tile_page.dart",
       "line": 33,
       "column": 12,
-      "message_hash": "sha256:e4b3f3c261adf3f1",
+      "message_hash": "sha256:93663d5b35ff95a8",
       "screen_id": "single-choice-tile"
     },
     {
@@ -1043,7 +1043,7 @@
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:d91f1e8ec3ec6d6c1715ecbc20556c5899a005a0687f8881843d17690d69ac4a",
+      "id": "sha256:e6516ae5c19dd34e681b09b18eddf247678116377063468961379cc8dd59b418",
       "rule_id": "flutter/runtime/text-overflow-at-scale",
       "layer": "runtime",
       "wcag_criterion": "1.4.4",
@@ -1052,12 +1052,12 @@
       "file_path": "example/lib/widgets/segment_bar.dart",
       "line": 112,
       "column": 18,
-      "message_hash": "sha256:6b2204b22ada7ed9",
+      "message_hash": "sha256:deaaaf76084b9d2c",
       "occurrence_key": "3",
       "screen_id": "widgets"
     },
     {
-      "id": "sha256:0da27c4347fa4f10eefed41302fa6bf209f5dcff3a2b017751a40a53e7e81080",
+      "id": "sha256:5b1f0744644f959cfb2246ff372f955a9ecfdd69505b138dec26a020d11cc4a2",
       "rule_id": "flutter/runtime/text-overflow-at-scale",
       "layer": "runtime",
       "wcag_criterion": "1.4.4",
@@ -1066,7 +1066,7 @@
       "file_path": "example/lib/widgets/segment_bar.dart",
       "line": 112,
       "column": 18,
-      "message_hash": "sha256:6b2204b22ada7ed9",
+      "message_hash": "sha256:deaaaf76084b9d2c",
       "occurrence_key": "4",
       "screen_id": "widgets"
     },
